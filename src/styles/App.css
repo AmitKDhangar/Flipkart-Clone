@@ -1,0 +1,363 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: black;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #F1F2F4;
+}
+
+header i {
+  font-size: clamp(.85rem, 1.5vw, .9rem);
+}
+.search-bar input::placeholder {
+  font-size: clamp(.45rem, 1.5vw, .81rem);
+}
+
+.input-section input {
+  font-size: clamp(.45rem, 1.5vw, .7rem);
+}
+
+.signup-section p {
+  font-size: clamp(.39rem, 1.5vw, .7rem);
+}
+
+.cart p {
+  font-size: clamp(.4rem, 1.5vw, .7rem);
+}
+
+.cart span {
+  font-size: clamp(.3rem, .8vw, .5rem);
+}
+
+.become-seller p {
+  font-size: clamp(.2rem, 1.5vw, .7rem);
+}
+
+.categories p {
+  font-size: clamp(.2rem, 2vw, .8rem)
+}
+
+.orders p {
+  font-size: clamp(.2rem, 1.5vw, .72rem)
+}
+
+.error {
+  color: red;
+  font-size: clamp(.3rem, 1vw, .6rem);
+}
+
+.form-error {
+  color: red;
+  font-size: clamp(.3rem, 1vw, .5rem);
+}
+
+/* carousel section */
+.carousel-imgage-container i {
+  font-size: clamp(.35rem, 1.5vw, 1.2rem);
+}
+
+/* Popular deals */
+.product-title {
+  font-size: clamp(.35rem, 1.5vw, .8rem);
+}
+
+.product-price {
+  font-size: clamp(.35rem, 1.5vw, .7rem);
+}
+
+.popular-deals h1 {
+  font-size: clamp(.2rem, 3vw, .95rem);
+}
+
+/* Footer-section */
+footer p {
+  font-size: clamp(.2rem, 2vw, .79rem);
+  color: white;
+}
+
+footer li {
+  font-size: clamp(.07rem, 2vw, .55rem);
+  color: white;
+  cursor: pointer;
+}
+
+footer i {
+  font-size: clamp(.09rem, 2vw, .8rem);
+  color: white;
+}
+
+footer .mailus p {
+  font-size: clamp(.07rem, 2vw, .6rem);
+  font-weight: 400;
+  color: white;
+}
+
+footer .registered-office p {
+  font-size: clamp(.07rem, 2vw, .6rem);
+  font-weight: 400;
+  color: white;
+}
+
+footer .features p,
+i {
+  cursor: pointer;
+}
+
+footer .features p {
+  font-size: clamp(.1rem, 1vw, .6rem);
+}
+
+footer .features i {
+  color: yellow;
+  font-size: clamp(.04rem, 1.5vw, .7rem);
+}
+
+.productsbycategories h1 {
+  font-size: clamp(.2rem, 3vw, .95rem);
+}
+
+/* signup Section */
+.signup h1 {
+  font-size: clamp(.6rem, 3vw, 1.5rem);
+}
+
+.signup p {
+  font-size: clamp(.3rem, 2.5vw, .8rem);
+}
+
+.signup label {
+  font-size: clamp(.3rem, 1.5vw, .65rem);
+  font-weight: 600;
+}
+
+.signup input {
+  font-size: clamp(.3rem, 1.5vw, .7rem);
+}
+
+.signup .right-side-form .caution {
+  font-size: clamp(.2rem, 1vw, .5rem);
+}
+
+.signup .right-side-form p {
+  font-size: clamp(.35rem, 1vw, .7rem);
+}
+
+/* Login section */
+.login h1 {
+  font-size: clamp(.55rem, 2vw, 1.5rem);
+}
+
+.login p {
+  font-size: clamp(.2rem, 1.5vw, .7rem);
+}
+
+.login label {
+  font-size: clamp(.3rem, 1.5vw, .65rem);
+  font-weight: 600;
+}
+
+.login input {
+  font-size: clamp(.3rem, 1.5vw, .7rem);
+}
+
+.login .right-side-form .caution {
+  font-size: clamp(.1rem, 1vw, .5rem);
+}
+
+.login .right-side-form p {
+  font-size: clamp(.35rem, 1vw, .7rem);
+}
+
+.becameaseller-wrapper p {
+  font-size: clamp(.6rem, 3vw, 5rem);
+  font-weight: 600;
+}
+
+.account-details p {
+  font-size: clamp(.55rem, 2vw, .9rem);
+}
+
+.account-details button {
+  font-size: clamp(.55rem, 2vw, .9rem);
+}
+
+.search-item p {
+  font-size: clamp(.2rem, 2vw, 1rem);
+}
+
+.error-page {
+  font-size: clamp(.8rem, 2vw, 1.9rem);
+}
+
+.path {
+  font-size: clamp(.2rem, 2vw, 1rem);
+}
+
+.product-details-title {
+  font-size: clamp(.55rem, 2vw, 1.5rem);
+}
+
+.product-details-category {
+  font-size: clamp(.3rem, 1.5vw, .9rem);
+}
+
+.product-detail-price {
+  font-size: clamp(.3rem, 2vw, .9rem);
+}
+
+.product-detail-rating {
+  font-size: clamp(.3rem, 1vw, .95rem);
+}
+
+.select-quantity {
+  font-size: clamp(.3rem, 1vw, .95rem);
+}
+
+.button-section button {
+  font-size: clamp(.2rem, 1vw, 1.2vw);
+}
+.product-detail-description {
+  font-size: clamp(.25rem, 1.5vw, .95rem);
+}
+
+/* cart-item-section */
+.cart-heading div h1 {
+  font-size: clamp(.7rem, 2vw, 2rem)
+}
+
+.cart-heading div h2 {
+  font-size: clamp(.6rem, 2vw, 2rem)
+}
+
+.cart-heading div i {
+  font-size: clamp(.6rem, 2vw, 1rem)
+}
+
+.cart-wrapper h1 {
+  font-size: clamp(.9rem, 2vw, 2rem)
+}
+
+.cart-items .title {
+  color: black;
+  font-size: clamp(.35rem, 2vw, .89rem)
+}
+
+.cart-items .category {
+  color: blue;
+  font-size: clamp(.3rem, 1.5vw, .65rem)
+}
+
+.cart-items-price p {
+  font-size: clamp(.34rem, 1.5vw, .7rem)
+}
+
+.cart-items-quantity p {
+  font-size: clamp(.3rem, 1.5vw, .65rem)
+}
+
+.btn button {
+  font-size: clamp(.5rem, 1.5vw, .7rem);
+}
+
+/* Empty Cart */
+.empty-cart p {
+  font-size: clamp(.65rem, 1.5vw, 1.5rem);
+}
+
+.empty-cart button {
+  font-size: clamp(.4rem, 1.5vw, .8rem);
+}
+
+.price-details p {
+  font-size: clamp(.3rem, 1.5vw, .7rem);
+}
+
+.price-summary-heading {
+  font-size: clamp(.4rem, 1.5vw, .9rem);
+}
+
+/* category-product */
+.category-product-wrapper h1{
+  font-size: clamp(1rem,2vw,2rem);
+  font-weight: 800;
+}
+.category-product .category-title {
+  font-size: clamp(.6rem, 1.5vw, 1rem);
+}
+
+.category-product .category-price {
+  font-size: clamp(.45rem, 2vw, .8rem);
+}
+
+.button-section button {
+  font-size: clamp(.4rem, 1.5vw, .75rem);
+}
+
+.back-btn i {
+  font-size: clamp(.4rem, 1.5vw, 1rem);
+}
+
+.btn button {
+  font-size: clamp(.35rem, 1.5vw, .75rem);
+}
+
+/* Buynow section */
+.buy-details-title {
+  font-size: clamp(.4rem, 1.5vw, 1.3rem);
+}
+
+.buy-details-category {
+  font-size: clamp(.3rem, 1.5vw, .85rem)
+}
+
+.buy-price {
+  font-size: clamp(.34rem, 1.5vw, .8rem)
+}
+
+.buy-detail-description {
+  font-size: clamp(.2rem, 1.5vw, .85rem);
+}
+
+.placeorder-button-section button {
+  font-size: clamp(.45rem, 1.5vw, .99rem);
+}
+
+/* Orders section */
+.orders-wrapper h1 {
+  font-size: clamp(.9rem, 2vw, 1.2rem);
+}
+.ordered-item p {
+  font-size: clamp(.5rem, 1.5vw,.9rem);
+  color: black;
+}
+.ordered-item button {
+  font-size: clamp(.5rem, 1.5vw, .9rem);
+  color: black;
+}
+.total-orders p{
+   font-size: clamp(.45rem, 2vw, .8rem);
+}
+/* miscellanceous */
+.explore-btn{
+  font-size: clamp(.65rem, 1.5vw, .9rem);
+}
+/* Image no drag */
+img {
+  -webkit-user-drag: none;
+}
+.order-success p{
+  font-size:clamp(.5rem,1.5vw,1rem);
+}
+.loading-wrapper p{
+ font-size:clamp(.4rem,2vw,1rem);
+}
+.unavailable{
+  font-size:clamp(.4rem,2vw,.8rem);
+  color: red;
+}
